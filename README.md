@@ -14,7 +14,6 @@ Single pass assembler for creating .o files from .s files Symbol table
 - source code representing assembly commands and assembly directives for generating content must be within the sections defined by the assembly directive .section         <section_name>:
 - the source code file is terminated (the rest of the file is discarded, ie not translated) using assembler directive .end
   space allocation is done using assembly directives .byte <symbol_list / literal>, .word <symbol_literal> and .skip whose functionality matches the GNU assembler         assembly directives of the same name
-- the definition of new symbols, in addition to specifying labels, is possible with the help of an assembly directive .equ , where represents the sequence of symbols and   literals separated operators plus and minus
 
 # Linker
 
