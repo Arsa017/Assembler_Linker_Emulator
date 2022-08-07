@@ -17,7 +17,7 @@ Single pass assembler for creating .o files from .s files Symbol table
 
 # Linker
 
- - Linker is used to link an object files from input, that are obtained as a result of assembly, and to make a signle hex file which can be executed by emulator
+ - Linker is used to link an object files from input, that are obtained as a result of assembly, and to make a single hex file which can be executed by emulator
 
 # Emulator
 
